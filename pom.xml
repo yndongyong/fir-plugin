@@ -13,7 +13,7 @@
     <packaging>hpi</packaging>
     <properties>
         <revision>1.0</revision>
-        <changelist>-SNAPSHOT</changelist>
+        <changelist></changelist>
 
         <!-- Baseline Jenkins version you use to build the plugin. Users must have this version or newer to run.2.35.1 -->
         <jenkins.version>2.222.4</jenkins.version>

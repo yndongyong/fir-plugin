@@ -83,7 +83,7 @@ public class HelloWorldBuilder extends Recorder {
         listener.getLogger().println("");
         listener.getLogger().println( "**************************************************************************************************");
         listener.getLogger().println( "**************************************************************************************************");
-        listener.getLogger().println( "********************************          UPLOAD TO FIR BY YYN          **************************");
+        listener.getLogger().println( "********************************          UPLOAD TO FIR BY yndongyong          **************************");
         listener.getLogger().println( "********************************         FIR:https://www.betaqr.com     **************************");
         listener.getLogger().println( "**************************************************************************************************");
         listener.getLogger().println( "**************************************************************************************************");
