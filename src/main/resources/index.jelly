@@ -1,0 +1,5 @@
+<?jelly escape-by-default='true'?>
+<div>
+     This plugin upload the apk file to fir(https://www.betaqr.com/)
+     powered by yndongyong
+</div>

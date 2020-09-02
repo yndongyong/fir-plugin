@@ -1,0 +1,22 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+     <f:entry title="fir api_token" field="apiToken">
+            <f:password/>
+        </f:entry>
+
+        <f:entry title="scandir" field="scanDir">
+            <f:textbox default="$${WORKSPACE}"/>
+        </f:entry>
+
+        <f:entry title="file wildcard" field="wildcard">
+            <f:textbox default="*.apk"/>
+        </f:entry>
+
+        <f:entry title="updateDescription(optional)" field="updateDescription">
+            <f:textbox/>
+        </f:entry>
+
+        <f:entry title="fir_url" field="firUrl">
+              <f:textbox default="http://api.bq04.com/apps"/>
+        </f:entry>
+</j:jelly>
